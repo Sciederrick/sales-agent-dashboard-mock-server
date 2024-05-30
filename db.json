@@ -1,9 +1,718 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "profile": {
+    "sales_agent_id": 123,
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john.doe@zeraki.com",
+    "phone_number": "+254712345678",
+    "region": "Nairobi",
+    "start_date": "2023-11-01",
+    "performance": {
+      "total_schools_signed_up": 20,
+      "monthly_average_signups": 4,
+      "top_performing_product": "Zeraki Analytics"
+    },
+    "targets": {
+      "monthly_target": 3,
+      "quarterly_target": 12
+    },
+    "notes": "John is a highly motivated and results-oriented sales agent with a strong understanding of the education sector."
+  },
+  "targets": {
+    "zeraki_analytics": {
+      "target": 50
+    },
+    "zeraki_finance": {
+      "target": 75
+    },
+    "zeraki_timetable": {
+      "target": 100
+    }
+  },
+  "schools": [
+    {
+      "id": 1,
+      "name": "Green Valley School",
+      "type": "Primary",
+      "county": "Nairobi",
+      "registration_date": "2024-02-14",
+      "contact_name": "John Doe",
+      "contact_email": "john.doe@greenvalley.com",
+      "contact_phone": "+254712345678",
+      "products": "Zeraki Analytics, Zeraki Finance",
+      "balance": 200.00
+    },
+    {
+      "id": 2,
+      "name": "Hilltop Academy",
+      "type": "Secondary",
+      "county": "Mombasa",
+      "registration_date": "2024-04-23",
+      "contact_name": "Jane Smith",
+      "contact_email": "jane.smith@hilltopacademy.co.ke",
+      "contact_phone": "+254778901234",
+      "products": "Zeraki Analytics, Zeraki Timetable",
+      "balance": 0.00
+    },
+    {
+      "id": 3,
+      "name": "Starlight Academy",
+      "type": "IGCSE",
+      "county": "Kisumu",
+      "registration_date": "2024-05-17",
+      "contact_name": "David Wang",
+      "contact_email": "david.wang@starlightacademy.co.ke",
+      "contact_phone": "+254722345678",
+      "products": "Zeraki Finance, Zeraki Timetable",
+      "balance": 650.00
+    },
+    {
+      "id": 4,
+      "name": "Sunshine High School",
+      "type": "Secondary",
+      "county": "Nakuru",
+      "registration_date": "2024-01-25",
+      "contact_name": "Mary Jones",
+      "contact_email": "mary.jones@sunshinehigh.ac.ke",
+      "contact_phone": "+254790123456",
+      "products": "Zeraki Analytics, Zeraki Finance",
+      "balance": 600.00
+    },
+    {
+      "id": 5,
+      "name": "Riverbank International",
+      "type": "IGCSE",
+      "county": "Kiambu",
+      "registration_date": "2024-03-08",
+      "contact_name": "Elizabeth Kimani",
+      "contact_email": " elizabeth.kimani@riverbank.edu",
+      "contact_phone": "+254711234567",
+      "products": "Zeraki Analytics, Zeraki Timetable",
+      "balance": 500.00
+    },
+    {
+      "id": 6,
+      "name": "Lakeview Elementary",
+      "type": "Primary",
+      "county": "Kisumu",
+      "registration_date": "2024-02-01",
+      "contact_name": "Michael Kamau",
+      "contact_email": "michael.kamau@lakeviewelementary.ac.ke",
+      "contact_phone": "+254798765432",
+      "products": "Zeraki Analytics, Zeraki Finance",
+      "balance": 200.00
+    },
+    {
+      "id": 7,
+      "name": "Hillcrest Academy",
+      "type": "Secondary",
+      "county": "Nakuru",
+      "registration_date": "2024-05-15",
+      "contact_name": "Sarah Ahmed",
+      "contact_email": "sarah.ahmed@hillcrestacademy.co.ke",
+      "contact_phone": "+254721098765",
+      "products": "Zeraki Analytics, Zeraki Timetable",
+      "balance": 250.00
+    },
+    {
+      "id": 8,
+      "name": "Galaxy International School",
+      "type": "IGCSE",
+      "county": "Nairobi",
+      "registration_date": "2024-04-20",
+      "contact_name": "Wangari Wahome",
+      "contact_email": "wangari.wahome@galaxyinternationalschool.com",
+      "contact_phone": "+254714321098",
+      "products": "Zeraki Finance, Zeraki Timetable",
+      "balance": 400.00
+    },
+    {
+      "id": 9,
+      "name": "Mombasa High School",
+      "type": "Secondary",
+      "county": "Mombasa",
+      "registration_date": "2024-05-22",
+      "contact_name": "Ali Hassan",
+      "contact_email": "ali.hassan@mombasahighschool.ac.ke",
+      "contact_phone": "+254732109876",
+      "products": "Zeraki Analytics, Zeraki Finance",
+      "balance": 600.00
+    },
+    {
+      "id": 10,
+      "name": "Greenwood Academy",
+      "type": "IGCSE",
+      "county": "Kiambu",
+      "registration_date": "2024-03-09",
+      "contact_name": "David Otieno",
+      "contact_email": "david.otieno@greenwoodacademy.co.ke",
+      "contact_phone": "+254701234567",
+      "products": "Zeraki Analytics, Zeraki Timetable",
+      "balance": 500.00
+    },
+    {
+      "id": 11,
+      "name": "Blue Ridge School",
+      "type": "Primary",
+      "county": "Nairobi",
+      "registration_date": "2024-03-10",
+      "contact_name": "Alice Mutua",
+      "contact_email": "alice.mutua@blueridge.ac.ke",
+      "contact_phone": "+254712345679",
+      "products": "Zeraki Analytics, Zeraki Finance",
+      "balance": 0.00
+    },
+    {
+      "id": 12,
+      "name": "Sunrise Academy",
+      "type": "Secondary",
+      "county": "Mombasa",
+      "registration_date": "2024-04-12",
+      "contact_name": "Brian Kimani",
+      "contact_email": "brian.kimani@sunriseacademy.ac.ke",
+      "contact_phone": "+254778901235",
+      "products": "Zeraki Timetable, Zeraki Finance",
+      "balance": 0.00
+    },
+    {
+      "id": 13,
+      "name": "Mountain View School",
+      "type": "IGCSE",
+      "county": "Kisumu",
+      "registration_date": "2024-05-05",
+      "contact_name": "Clara Njoroge",
+      "contact_email": "clara.njoroge@mountainview.ac.ke",
+      "contact_phone": "+254722345679",
+      "products": "Zeraki Analytics, Zeraki Timetable",
+      "balance": 0.00
+    },
+    {
+      "id": 14,
+      "name": "Bright Future Academy",
+      "type": "Secondary",
+      "county": "Nakuru",
+      "registration_date": "2024-03-25",
+      "contact_name": "Daniel Otieno",
+      "contact_email": "daniel.otieno@brightfuture.ac.ke",
+      "contact_phone": "+254790123457",
+      "products": "Zeraki Analytics",
+      "balance": 0.00
+    },
+    {
+      "id": 15,
+      "name": "Rainbow International",
+      "type": "IGCSE",
+      "county": "Kiambu",
+      "registration_date": "2024-04-18",
+      "contact_name": "Eunice Mwangi",
+      "contact_email": "eunice.mwangi@rainbow.ac.ke",
+      "contact_phone": "+254711234568",
+      "products": "Zeraki Finance",
+      "balance": 0.00
+    },
+    {
+      "id": 16,
+      "name": "Hillside School",
+      "type": "Primary",
+      "county": "Nairobi",
+      "registration_date": "2024-05-10",
+      "contact_name": "Fred Wanjohi",
+      "contact_email": "fred.wanjohi@hillside.ac.ke",
+      "contact_phone": "+254712345680",
+      "products": "Zeraki Timetable, Zeraki Finance",
+      "balance": 0.00
+    },
+    {
+      "id": 17,
+      "name": "Riverdale Academy",
+      "type": "Secondary",
+      "county": "Mombasa",
+      "registration_date": "2024-04-22",
+      "contact_name": "Grace Karanja",
+      "contact_email": "grace.karanja@riverdale.ac.ke",
+      "contact_phone": "+254778901236",
+      "products": "Zeraki Analytics, Zeraki Finance",
+      "balance": 0.00
+    },
+    {
+      "id": 18,
+      "name": "Starlight High School",
+      "type": "IGCSE",
+      "county": "Kisumu",
+      "registration_date": "2024-05-03",
+      "contact_name": "Henry Wafula",
+      "contact_email": "henry.wafula@starlighthigh.ac.ke",
+      "contact_phone": "+254722345680",
+      "products": "Zeraki Analytics, Zeraki Timetable",
+      "balance": 0.00
+    },
+    {
+      "id": 19,
+      "name": "Greenfield Academy",
+      "type": "Secondary",
+      "county": "Nakuru",
+      "registration_date": "2024-03-29",
+      "contact_name": "Ivy Ochieng",
+      "contact_email": "ivy.ochieng@greenfield.ac.ke",
+      "contact_phone": "+254790123458",
+      "products": "Zeraki Timetable",
+      "balance": 0.00
+    },
+    {
+      "id": 20,
+      "name": "Ocean View School",
+      "type": "International",
+      "county": "Kiambu",
+      "registration_date": "2024-04-25",
+      "contact_name": "James Mwiti",
+      "contact_email": "james.mwiti@oceanview.ac.ke",
+      "contact_phone": "+254711234569",
+      "products": "Zeraki Analytics, Zeraki Finance",
+      "balance": 0.00
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "invoices": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "invoice_number": "INV-00001",
+      "item": "Zeraki Analytics",
+      "creation_date": "2024-05-20",
+      "due_date": "2024-06-20",
+      "amount": 150.00,
+      "paid_amount": 50.00,
+      "balance": 100.00,
+      "status": "Partial",
+      "days_until_due": 30
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "invoice_number": "INV-00002",
+      "item": "Zeraki Finance",
+      "creation_date": "2024-05-22",
+      "due_date": "2024-06-22",
+      "amount": 200.00,
+      "paid_amount": 100.00,
+      "balance": 100.00,
+      "status": "Partial",
+      "days_until_due": 31
+    },
+    {
+      "id": 3,
+      "school_id": 2,
+      "invoice_number": "INV-00003",
+      "item": "Zeraki Timetable",
+      "creation_date": "2024-05-21",
+      "due_date": "2024-06-21",
+      "amount": 250.00,
+      "paid_amount": 250.00,
+      "balance": 0.00,
+      "status": "Paid",
+      "days_until_due": 30
+    },
+    {
+      "id": 4,
+      "school_id": 2,
+      "invoice_number": "INV-00004",
+      "item": "Zeraki Analytics",
+      "creation_date": "2024-05-23",
+      "due_date": "2024-06-23",
+      "amount": 300.00,
+      "paid_amount": 300.00,
+      "balance": 0.00,
+      "status": "Paid",
+      "days_until_due": 31
+    },
+    {
+      "id": 5,
+      "school_id": 3,
+      "invoice_number": "INV-00005",
+      "item": "Zeraki Finance",
+      "creation_date": "2024-05-24",
+      "due_date": "2024-06-24",
+      "amount": 500.00,
+      "paid_amount": 250.00,
+      "balance": 250.00,
+      "status": "Partial",
+      "days_until_due": 31
+    },
+    {
+      "id": 6,
+      "school_id": 3,
+      "invoice_number": "INV-00006",
+      "item": "Zeraki Timetable",
+      "creation_date": "2024-05-25",
+      "due_date": "2024-06-25",
+      "amount": 400.00,
+      "paid_amount": 0.00,
+      "balance": 400.00,
+      "status": "Pending",
+      "days_until_due": 31
+    },
+    {
+      "id": 7,
+      "school_id": 4,
+      "invoice_number": "INV-00007",
+      "item": "Zeraki Analytics",
+      "creation_date": "2024-05-26",
+      "due_date": "2024-06-26",
+      "amount": 350.00,
+      "paid_amount": 100.00,
+      "balance": 250.00,
+      "status": "Partial",
+      "days_until_due": 31
+    },
+    {
+      "id": 8,
+      "school_id": 4,
+      "invoice_number": "INV-00008",
+      "item": "Zeraki Finance",
+      "creation_date": "2024-05-27",
+      "due_date": "2024-06-27",
+      "amount": 450.00,
+      "paid_amount": 100.00,
+      "balance": 350.00,
+      "status": "Partial",
+      "days_until_due": 31
+    },
+    {
+      "id": 9,
+      "school_id": 5,
+      "invoice_number": "INV-00009",
+      "item": "Zeraki Timetable",
+      "creation_date": "2024-05-28",
+      "due_date": "2024-06-28",
+      "amount": 500.00,
+      "paid_amount": 0.00,
+      "balance": 500.00,
+      "status": "Pending",
+      "days_until_due": 31
+    },
+    {
+      "id": 10,
+      "school_id": 5,
+      "invoice_number": "INV-00010",
+      "item": "Zeraki Analytics",
+      "creation_date": "2024-05-29",
+      "due_date": "2024-06-29",
+      "amount": 600.00,
+      "paid_amount": 600.00,
+      "balance": 0.00,
+      "status": "Paid",
+      "days_until_due": 31
+    },
+    {
+      "id": 11,
+      "school_id": 6,
+      "invoice_number": "INV-00011",
+      "item": "Zeraki Analytics",
+      "creation_date": "2024-05-30",
+      "due_date": "2024-06-30",
+      "amount": 150.00,
+      "paid_amount": 150.00,
+      "balance": 0.00,
+      "status": "Paid",
+      "days_until_due": 31
+    },
+    {
+      "id": 12,
+      "school_id": 6,
+      "invoice_number": "INV-00012",
+      "item": "Zeraki Finance",
+      "creation_date": "2024-05-31",
+      "due_date": "2024-06-30",
+      "amount": 200.00,
+      "paid_amount": 0.00,
+      "balance": 200.00,
+      "status": "Pending",
+      "days_until_due": 30
+    },
+    {
+      "id": 13,
+      "school_id": 7,
+      "invoice_number": "INV-00013",
+      "item": "Zeraki Timetable",
+      "creation_date": "2024-06-01",
+      "due_date": "2024-07-01",
+      "amount": 250.00,
+      "paid_amount": 0.00,
+      "balance": 250.00,
+      "status": "Pending",
+      "days_until_due": 30
+    },
+    {
+      "id": 14,
+      "school_id": 7,
+      "invoice_number": "INV-00014",
+      "item": "Zeraki Analytics",
+      "creation_date": "2024-06-02",
+      "due_date": "2024-07-02",
+      "amount": 300.00,
+      "paid_amount": 300.00,
+      "balance": 0.00,
+      "status": "Paid",
+      "days_until_due": 30
+    },
+    {
+      "id": 15,
+      "school_id": 8,
+      "invoice_number": "INV-00015",
+      "item": "Zeraki Finance",
+      "creation_date": "2024-06-03",
+      "due_date": "2024-07-03",
+      "amount": 100.00,
+      "paid_amount": 100.00,
+      "balance": 0.00,
+      "status": "Paid",
+      "days_until_due": 30
+    },
+    {
+      "id": 16,
+      "school_id": 8,
+      "invoice_number": "INV-00016",
+      "item": "Zeraki Timetable",
+      "creation_date": "2024-06-04",
+      "due_date": "2024-07-04",
+      "amount": 400.00,
+      "paid_amount": 0.00,
+      "balance": 400.00,
+      "status": "Pending",
+      "days_until_due": 30
+    },
+    {
+      "id": 17,
+      "school_id": 9,
+      "invoice_number": "INV-00017",
+      "item": "Zeraki Analytics",
+      "creation_date": "2024-06-05",
+      "due_date": "2024-07-05",
+      "amount": 350.00,
+      "paid_amount": 0.00,
+      "balance": 350.00,
+      "status": "Pending",
+      "days_until_due": 30
+    },
+    {
+      "id": 18,
+      "school_id": 9,
+      "invoice_number": "INV-00018",
+      "item": "Zeraki Finance",
+      "creation_date": "2024-06-06",
+      "due_date": "2024-07-06",
+      "amount": 450.00,
+      "paid_amount": 200.00,
+      "balance": 250.00,
+      "status": "Partial",
+      "days_until_due": 30
+    },
+    {
+      "id": 19,
+      "school_id": 10,
+      "invoice_number": "INV-00019",
+      "item": "Zeraki Timetable",
+      "creation_date": "2024-06-07",
+      "due_date": "2024-07-07",
+      "amount": 500.00,
+      "paid_amount": 0.00,
+      "balance": 500.00,
+      "status": "Pending",
+      "days_until_due": 30
+    },
+    {
+      "id": 20,
+      "school_id": 10,
+      "invoice_number": "INV-00020",
+      "item": "Zeraki Analytics",
+      "creation_date": "2024-06-08",
+      "due_date": "2024-07-08",
+      "amount": 600.00,
+      "paid_amount": 600.00,
+      "balance": 0.00,
+      "status": "Paid",
+      "days_until_due": 30
+    }
   ],
-  "profile": { "name": "typicode" }
+  "collections": [
+    {
+      "id": 1,
+      "invoice_id": 1,
+      "collection_number": "COL-00001",
+      "collection_date": "2024-05-22",
+      "amount": 50.00,
+      "status": "Valid",
+      "payment_method": "cash"
+    },
+    {
+      "id": 2,
+      "invoice_id": 1,
+      "collection_number": "COL-00002",
+      "collection_date": "2024-06-10",
+      "amount": 50.00,
+      "status": "Bounced",
+      "payment_method": "credit card"
+    },
+    {
+      "id": 3,
+      "invoice_id": 2,
+      "collection_number": "COL-00003",
+      "collection_date": "2024-06-01",
+      "amount": 100.00,
+      "status": "Bounced",
+      "payment_method": "bank transfer"
+    },
+    {
+      "id": 4,
+      "invoice_id": 2,
+      "collection_number": "COL-00004",
+      "collection_date": "2024-06-15",
+      "amount": 100.00,
+      "status": "Valid",
+      "payment_method": "cash"
+    },
+    {
+      "id": 5,
+      "invoice_id": 3,
+      "collection_number": "COL-00005",
+      "collection_date": "2024-06-05",
+      "amount": 250.00,
+      "status": "Valid",
+      "payment_method": "credit card"
+    },
+    {
+      "id": 6,
+      "invoice_id": 4,
+      "collection_number": "COL-00006",
+      "collection_date": "2024-06-10",
+      "amount": 300.00,
+      "status": "Valid",
+      "payment_method": "bank transfer"
+    },
+    {
+      "id": 7,
+      "invoice_id": 5,
+      "collection_number": "COL-00007",
+      "collection_date": "2024-06-12",
+      "amount": 250.00,
+      "status": "Valid",
+      "payment_method": "cash"
+    },
+    {
+      "id": 8,
+      "invoice_id": 6,
+      "collection_number": "COL-00008",
+      "collection_date": "2024-06-15",
+      "amount": 300.00,
+      "status": "Bounced",
+      "payment_method": "credit card"
+    },
+    {
+      "id": 9,
+      "invoice_id": 7,
+      "collection_number": "COL-00009",
+      "collection_date": "2024-06-17",
+      "amount": 50.00,
+      "status": "Valid",
+      "payment_method": "cash"
+    },
+    {
+      "id": 10,
+      "invoice_id": 7,
+      "collection_number": "COL-00010",
+      "collection_date": "2024-06-22",
+      "amount": 50.00,
+      "status": "Valid",
+      "payment_method": "bank transfer"
+    },
+    {
+      "id": 11,
+      "invoice_id": 8,
+      "collection_number": "COL-00011",
+      "collection_date": "2024-06-24",
+      "amount": 100.00,
+      "status": "Valid",
+      "payment_method": "credit card"
+    },
+    {
+      "id": 12,
+      "invoice_id": 9,
+      "collection_number": "COL-00012",
+      "collection_date": "2024-06-25",
+      "amount": 400.00,
+      "status": "Bounced",
+      "payment_method": "cash"
+    },
+    {
+      "id": 13,
+      "invoice_id": 10,
+      "collection_number": "COL-00013",
+      "collection_date": "2024-06-27",
+      "amount": 600.00,
+      "status": "Valid",
+      "payment_method": "bank transfer"
+    },
+    {
+      "id": 14,
+      "invoice_id": 11,
+      "collection_number": "COL-00014",
+      "collection_date": "2024-06-30",
+      "amount": 150.00,
+      "status": "Valid",
+      "payment_method": "credit card"
+    },
+    {
+      "id": 15,
+      "invoice_id": 12,
+      "collection_number": "COL-00015",
+      "collection_date": "2024-06-01",
+      "amount": 100.00,
+      "status": "Bounced",
+      "payment_method": "cash"
+    },
+    {
+      "id": 16,
+      "invoice_id": 13,
+      "collection_number": "COL-00016",
+      "collection_date": "2024-07-03",
+      "amount": 150.00,
+      "status": "Bounced",
+      "payment_method": "bank transfer"
+    },
+    {
+      "id": 17,
+      "invoice_id": 14,
+      "collection_number": "COL-00017",
+      "collection_date": "2024-07-01",
+      "amount": 300.00,
+      "status": "Valid",
+      "payment_method": "credit card"
+    },
+    {
+      "id": 18,
+      "invoice_id": 15,
+      "collection_number": "COL-00018",
+      "collection_date": "2024-07-02",
+      "amount": 50.00,
+      "status": "Valid",
+      "payment_method": "cash"
+    },
+    {
+      "id": 19,
+      "invoice_id": 15,
+      "collection_number": "COL-00019",
+      "collection_date": "2024-07-03",
+      "amount": 50.00,
+      "status": "Valid",
+      "payment_method": "bank transfer"
+    },
+    {
+      "id": 20,
+      "invoice_id": 16,
+      "collection_number": "COL-00020",
+      "collection_date": "2024-07-04",
+      "amount": 400.00,
+      "status": "Bounced",
+      "payment_method": "credit card"
+    }
+  ]
 }
