@@ -18,15 +18,15 @@
     },
     "notes": "John is a highly motivated and results-oriented sales agent with a strong understanding of the education sector."
   },
-  "signUpTargets": {
+  "target": {
     "zeraki_analytics": {
-      "target": 50
+      "signup": 50
     },
     "zeraki_finance": {
-      "target": 75
+      "signup": 75
     },
     "zeraki_timetable": {
-      "target": 100
+      "signup": 100
     }
   },
   "schools": [
