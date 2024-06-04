@@ -537,6 +537,7 @@
     {
       "id": 1,
       "invoice_id": 1,
+      "school_id": 1,
       "collection_number": "COL-00001",
       "collection_date": "2024-05-22",
       "amount": 50.00,
@@ -546,6 +547,7 @@
     {
       "id": 2,
       "invoice_id": 1,
+      "school_id": 1,
       "collection_number": "COL-00002",
       "collection_date": "2024-06-10",
       "amount": 50.00,
@@ -555,6 +557,7 @@
     {
       "id": 3,
       "invoice_id": 2,
+      "school_id": 1,
       "collection_number": "COL-00003",
       "collection_date": "2024-06-01",
       "amount": 100.00,
@@ -564,6 +567,7 @@
     {
       "id": 4,
       "invoice_id": 2,
+      "school_id": 1,
       "collection_number": "COL-00004",
       "collection_date": "2024-06-15",
       "amount": 100.00,
@@ -573,6 +577,7 @@
     {
       "id": 5,
       "invoice_id": 3,
+      "school_id": 2,
       "collection_number": "COL-00005",
       "collection_date": "2024-06-05",
       "amount": 250.00,
@@ -582,6 +587,7 @@
     {
       "id": 6,
       "invoice_id": 4,
+      "school_id": 2,
       "collection_number": "COL-00006",
       "collection_date": "2024-06-10",
       "amount": 300.00,
@@ -591,6 +597,7 @@
     {
       "id": 7,
       "invoice_id": 5,
+      "school_id": 3,
       "collection_number": "COL-00007",
       "collection_date": "2024-06-12",
       "amount": 250.00,
@@ -600,6 +607,7 @@
     {
       "id": 8,
       "invoice_id": 6,
+      "school_id": 3,
       "collection_number": "COL-00008",
       "collection_date": "2024-06-15",
       "amount": 300.00,
@@ -609,6 +617,7 @@
     {
       "id": 9,
       "invoice_id": 7,
+      "school_id": 4,
       "collection_number": "COL-00009",
       "collection_date": "2024-06-17",
       "amount": 50.00,
@@ -618,6 +627,7 @@
     {
       "id": 10,
       "invoice_id": 7,
+      "school_id": 4,
       "collection_number": "COL-00010",
       "collection_date": "2024-06-22",
       "amount": 50.00,
@@ -627,6 +637,7 @@
     {
       "id": 11,
       "invoice_id": 8,
+      "school_id": 4,
       "collection_number": "COL-00011",
       "collection_date": "2024-06-24",
       "amount": 100.00,
@@ -636,6 +647,7 @@
     {
       "id": 12,
       "invoice_id": 9,
+      "school_id": 5,
       "collection_number": "COL-00012",
       "collection_date": "2024-06-25",
       "amount": 400.00,
@@ -645,6 +657,7 @@
     {
       "id": 13,
       "invoice_id": 10,
+      "school_id": 5,
       "collection_number": "COL-00013",
       "collection_date": "2024-06-27",
       "amount": 600.00,
@@ -654,6 +667,7 @@
     {
       "id": 14,
       "invoice_id": 11,
+      "school_id": 6,
       "collection_number": "COL-00014",
       "collection_date": "2024-06-30",
       "amount": 150.00,
@@ -663,6 +677,7 @@
     {
       "id": 15,
       "invoice_id": 12,
+      "school_id": 6,
       "collection_number": "COL-00015",
       "collection_date": "2024-06-01",
       "amount": 100.00,
@@ -672,6 +687,7 @@
     {
       "id": 16,
       "invoice_id": 13,
+      "school_id": 7,
       "collection_number": "COL-00016",
       "collection_date": "2024-07-03",
       "amount": 150.00,
@@ -681,6 +697,7 @@
     {
       "id": 17,
       "invoice_id": 14,
+      "school_id": 7,
       "collection_number": "COL-00017",
       "collection_date": "2024-07-01",
       "amount": 300.00,
@@ -690,6 +707,7 @@
     {
       "id": 18,
       "invoice_id": 15,
+      "school_id": 8,
       "collection_number": "COL-00018",
       "collection_date": "2024-07-02",
       "amount": 50.00,
@@ -699,6 +717,7 @@
     {
       "id": 19,
       "invoice_id": 15,
+      "school_id": 8,
       "collection_number": "COL-00019",
       "collection_date": "2024-07-03",
       "amount": 50.00,
@@ -708,6 +727,7 @@
     {
       "id": 20,
       "invoice_id": 16,
+      "school_id": 8,
       "collection_number": "COL-00020",
       "collection_date": "2024-07-04",
       "amount": 400.00,
